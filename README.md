@@ -12,32 +12,32 @@ esp32Info.Update();
   Serial.printf("Core %i\n", esp32Info.ChipCores);
 
   /*
-  list values
-  ChipModel;                  
-  ChipRevision;
-  ChipCores;
-  ChipId = 0;
-  CpuFreqMHz;
-
-  HeapSize;
-  FreeHeap;
-  MinFreeHeap;
-  MaxAllocHeap;
-
-  PsramSize;
-  FreePsram;
-  MinFreePsram;
-  MaxAllocPsram;
-
-  FlashChipSize;
-  FlashChipSpeed;
-  FlashChipMode;
-  FlashMode;
-
-  SketchSize;
-  FreeSketchSpace;
-  */
-
-
-  Serial.println("---");
+  list values <br>
+  ChipModel; <br>                  
+  ChipRevision; <br>
+  ChipCores; <br>
+  ChipId = 0; <br>
+  CpuFreqMHz; <br>
+ <br>
+  HeapSize; <br>
+  FreeHeap; <br>
+  MinFreeHeap; <br>
+  MaxAllocHeap; <br>
+ <br>
+  PsramSize; <br>
+  FreePsram; <br>
+  MinFreePsram; <br>
+  MaxAllocPsram; <br>
+ <br>
+  FlashChipSize; <br>
+  FlashChipSpeed; <br>
+  FlashChipMode; <br>
+  FlashMode; <br>
+ <br>
+  SketchSize; <br>
+  FreeSketchSpace; <br>
+  */ <br>
+ <br>
+ <br>
+  Serial.println("---"); <br>
   Serial.print(esp32Info.GetInfo()); 
