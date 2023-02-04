@@ -3,14 +3,14 @@ tested arduino 2.0.4
 
 use:
 
-Esp32Info esp32Info;
-esp32Info.Update();
-  
-  Serial.println("---");
-  Serial.printf("Model %s \n", esp32Info.ChipModel);
-  Serial.printf("MHz %i\n", esp32Info.CpuFreqMHz);
-  Serial.printf("Core %i\n", esp32Info.ChipCores);
-
+Esp32Info esp32Info; <br>
+esp32Info.Update(); <br>
+   <br>
+  Serial.println("---"); <br>
+  Serial.printf("Model %s \n", esp32Info.ChipModel); <br>
+  Serial.printf("MHz %i\n", esp32Info.CpuFreqMHz); <br>
+  Serial.printf("Core %i\n", esp32Info.ChipCores); <br>
+ <br>
   /*
   list values <br>
   ChipModel; <br>                  
